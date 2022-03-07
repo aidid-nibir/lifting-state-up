@@ -10,7 +10,7 @@ class calculator extends Component {
         scale: ''
     }
     handleTempInput = (inputTemperature, temperatureType) => {
-        if (temperatureType == 'Celcius') {
+        if (temperatureType === 'Celcius') {
             this.setState({ temperature: inputTemperature, scale: temperatureType });
         }
         else {
