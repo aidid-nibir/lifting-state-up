@@ -1,10 +1,11 @@
 import React from 'react';
+import './boilingVerdict.css'
 
 const Boilingverdict = (props) => {
     if (props.temp >= 100) {
-        return <p>The water would boil.</p>;
+        return <h3 className='positive'>The water would boil.</h3>;
     }
-    return <p>The water would not boil.</p>;
+    return <h3 className='negative'>The water would not boil.</h3>;
 }
 
 export default Boilingverdict;

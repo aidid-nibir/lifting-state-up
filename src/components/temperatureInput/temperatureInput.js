@@ -1,5 +1,4 @@
 import React from 'react';
-import './temperatureInput.css'
 
 const Temperatureinput = (props) => {
     const handleChnge = (e) => {
