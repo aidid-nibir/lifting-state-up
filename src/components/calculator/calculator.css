@@ -1,0 +1,12 @@
+.calculator{
+   text-align: left;
+   width: 40vw;
+   margin: auto;
+}
+.calculator div{
+    margin: auto;
+    padding: 15px;
+}
+.calculator h3{
+    text-align: center;
+}
